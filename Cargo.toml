@@ -1,0 +1,13 @@
+[package]
+name = "renc_core"
+version = "0.1.0"
+edition = "2024"
+license = "Apache 2.0"
+authors = ["Svyatkin Egor <248340784+Cinnamon415@users.noreply.github.com>"]
+
+[dependencies]
+argon2 = "0.5.3"
+chacha20poly1305 = "0.10.1"
+tar = "0.4.44"
+walkdir = "2.5.0"
+zstd = "0.13.3"
